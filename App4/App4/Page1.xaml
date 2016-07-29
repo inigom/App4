@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Page1">
+  <StackLayout>
+    <Grid>
+        <Entry x:Name="entrada" Text="teclear algo"></Entry>
+    </Grid>
+    <Label Text="Pulsa " VerticalOptions="Center" HorizontalOptions="Center"  />
+    <Button Clicked="PulsadoClick" Text="Pulsame"/>
+    <Label x:Name ="salida"></Label>
+    <Button Text="ir a 2" Clicked="Navegara2" />
+  </StackLayout>
+	
+</ContentPage>
